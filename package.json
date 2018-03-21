@@ -1,0 +1,27 @@
+{
+  "name": "office365dsc",
+  "version": "0.0.1",
+  "description": "The Office365Dsc PowerShell module provides DSC resources that can be used to manage Office365",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "through2": "^2.0.1",
+    "markdownlint": "^0.2.0"
+  },
+  "devDependencies": {
+    "gulp-concat": "^2.6.0"
+  },
+  "scripts": {
+    "test": "powershell -File .vscode\\RunPesterTests.ps1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andikrueger/Office365Dsc.git"
+  },
+  "author": "Andi Krüger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andikrueger/Office365Dsc/issues"
+  },
+  "homepage": "https://github.com/andikrueger/Office365Dsc#readme"
+}
